@@ -1,6 +1,8 @@
 describe('employees', function() {
+  let employee;
   describe('updateEmployeeWithKeyAndValue(employee, key, value)', function () {
     beforeEach(function () {
+         employee = {}
       for (const key in employee) {
         delete employee[key];
       }
